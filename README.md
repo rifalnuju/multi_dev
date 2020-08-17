@@ -1,4 +1,4 @@
-# multi_dev
+# rifal dg nuju
 
 Instaling /n
 pkg install python2 /n
